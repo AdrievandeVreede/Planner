@@ -1,8 +1,8 @@
-import datetime
+import controllers.Time as time
 
 
 def t(hour=0, minute=0):
-    return datetime.time(hour, minute)
+    return time.CreateTime(hour, minute)
 
 
 schemes = {
