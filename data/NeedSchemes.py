@@ -70,3 +70,16 @@ vakken = {
         },
     },
 }
+
+docenten = {
+    "mlr": ["Mulder", 30],
+    "qui": ["Quist", 35],
+}
+
+docentenVakken = {
+    "g": {
+        "wisb": ["Wiskunde B", ["mlr", ]],
+        "wisa": ["Wiskunda A", ["mlr", ]],
+        "maat": ["Maatschappijleer", ["qui", ]],
+    }
+}
